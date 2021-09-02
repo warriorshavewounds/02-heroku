@@ -11,26 +11,26 @@ function App() {
     <BrowserRouter>
       <header className="bg-light pt-3">
         <div className="container">
-          <h1 className="display-1">Our Amazing App!</h1>
+          <h1 className="display-1">Coding Accountability Grp</h1>
           <ul className="nav nav-tabs">
             <li className="nav-item">
               <NavLink to="/animal/meowsalot" className="nav-link" activeClassName="active">
-                Meowsalot
+                Careers
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/animal/barksalot" className="nav-link" activeClassName="active">
-                Barksalot
+                Languages
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/animal/purrsloud" className="nav-link" activeClassName="active">
-                Purrsloud
+                Projects
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/secret" className="nav-link" activeClassName="active">
-                Secret
+                Motivation
               </NavLink>
             </li>
           </ul>
