@@ -2,21 +2,22 @@ import React, { useEffect } from "react"
 
 function About() {
   useEffect(() => {
-    document.title = "About Us | Our Amazing App"
+    document.title = "About Us | CAG's Amazing App"
   }, [])
 
   return (
     <div>
-      <h2 className="display-4">Learn More About Us</h2>
+      <h2 className="display-4">Learn More About CAG</h2>
       <p className="lead">
-        This is the <strong>about page</strong>. Dolor sit amet consectetur adipisicing elit. Itaque quasi natus fugit ab laudantium dolores, dicta blanditiis sit eum perferendis minima sunt repudiandae voluptates tempore. Fuga dicta ipsa beatae vel?
+        Coding Accountability Group(CAG) is the most popular <strong>codecademy facebook </strong> study group. Formed in AD 2021, January 21 we continue to help each other reach their study goals.
       </p>
       <div className="row">
         <div className="col-sm">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eveniet dignissimos alias repellat officia qui rem nemo, unde magnam voluptatum obcaecati explicabo tempora quidem? Aperiam doloremque assumenda accusantium deleniti soluta?</p>
+          <p>The aim of this study group is to cheer you on to get some studying done. Please share your daily, weekly or monthly goals here. We love to see those certificates, coding streaks and their accompanying projects!</p>
         </div>
         <div className="col-sm">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error eveniet dignissimos alias repellat officia qui rem nemo, unde magnam voluptatum obcaecati explicabo tempora quidem? Aperiam doloremque assumenda accusantium deleniti soluta?</p>
+          <p>CAG's admin is Itoko Inla who is ably supported by founding members, conversation starters, etc. Everyone's path is unique, the destination is what matters. But make sure to enjoy the journey as much.
+          To access the motivation tab, username= CAG and password=code</p>
         </div>
       </div>
     </div>
