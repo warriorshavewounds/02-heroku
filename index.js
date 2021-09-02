@@ -19,7 +19,7 @@ app.get("/api/animals/meowsalot", cors(), (req, res) => {
 
 app.get("/api/animals/barksalot", cors(), (req, res) => {
   res.header("Cache-Control", "max-age=10")
-  res.json({ name: "Languages", species: "program", "photo": "https://gowithcode.com/wp-content/uploads/2021/04/top-programming-languages.jpg", bio: "HTML, CSS and commandline are essential, then take a language. For Android App dev, look at options in Java and Kotlin. For iOS Apps, consider swift. React Native is cross platform-used for making both android and iOS. " })
+  res.json({ name: "Languages", species: "program", "photo": "https://gowithcode.com/wp-content/uploads/2021/04/top-programming-languages.jpg", bio: "HTML, CSS and command line are essential. For Android App dev, look at options in Java and Kotlin. For iOS Apps, consider swift. React Native is cross platform-used for making both android and iOS. C# and java are renowned for Game development, python is heavily used in data science." })
 })
 
 app.get("/api/animals/purrsloud", cors(), (req, res) => {
@@ -32,7 +32,7 @@ app.get("*", (req, res) => {
 })
 
 app.post("/secret", (req, res) => {
-  if (req.body.username === "CAR" && req.body.password == "code") {
+  if (req.body.username === "CAG" && req.body.password == "code") {
     res.json({ message: "Truth does not mind been questioned.", status: "success" })
   } else {
     res.json({ message: "You are not authorized to access this data.", status: "failure" })

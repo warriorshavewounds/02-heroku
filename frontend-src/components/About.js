@@ -16,7 +16,7 @@ function About() {
           <p>The aim of this study group is to cheer you on to get some studying done. Please share your daily, weekly or monthly goals here. We love to see those certificates, coding streaks and their accompanying projects!</p>
         </div>
         <div className="col-sm">
-          <p>CAG's admin is Itoko Inla who is ably supported by founding members, conversation starters, etc. Everyone's path is unique, the destination is what matters. But make sure to enjoy the journey as much.
+          <p>CAG's admin is Itoko Inla who is ably supported by founding members, conversation starters and rising stars. Everyone's path is unique, the destination is what matters. But make sure to enjoy the journey as much.
           To access the motivation tab, username= CAG and password=code</p>
         </div>
       </div>
