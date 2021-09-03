@@ -5,3 +5,7 @@ body {
 .text-tiny {
   font-size: 1.3rem;
 }
+.photo {
+  width: 90%;
+  height: auto;
+}
