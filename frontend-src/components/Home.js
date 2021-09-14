@@ -13,7 +13,7 @@ function Home() {
       <p>So work hard in silence, let your success be your noise.
         
       </p>
-      <button><a href = "https://www.facebook.com/groups/262853181879782/">click here to join</a></button>
+      <button><a class="cag" href = "https://www.facebook.com/groups/262853181879782/">click here to join</a></button>
     </div>
   )
 }
