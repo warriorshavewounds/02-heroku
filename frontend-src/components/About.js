@@ -8,6 +8,7 @@ function About() {
   return (
     <div>
       <h2 className="display-4">Learn More About CAG</h2>
+      <img className="photo" src="https://github.com/ThePrin/online-news/blob/master/img/caglogsemi.png?raw=true"/>
       <p className="lead">
         Coding Accountability Group(CAG) is the most popular <strong>codecademy facebook </strong> study group. Formed in January 21, 2021 we continue to help each other reach their study goals.
       </p>
