@@ -8,7 +8,7 @@ function Home() {
   return (
     <div>
       <h2 className="display-4">Welcome: CAG homepage!</h2>
-      <img className="photo" src="https://github.com/ThePrin/online-news/blob/master/img/cag-resized.png?raw=true" />
+      <img className="photo" src="https://github.com/ThePrin/online-news/blob/master/img/yaleeresized.png?raw=true" />
       <p className="lead">A seed Grows With No Sound. Creation is Quiet.</p>
       <p>So work hard in silence, let your success be your noise.
         
