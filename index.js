@@ -14,17 +14,17 @@ app.use(express.static(path.join(__dirname, "public")))
 app.get("/api/animals/meowsalot", cors(), (req, res) => {
   // tell browser that if it loaded this url in the last 10 seconds to use that if quickly switching between pages
   res.header("Cache-Control", "max-age=10")
-  res.json({ name: "Careers", species: "roles", "photo": "https://www.digitalmosaik.com/hubfs/Imported_Blog_Media/1-2.jpg", bio: "There are roles in Web development, Mobile App development, Game dev, Artificial Intelligence, Machine Learning, Robotics, CyberSecurity, Entrepreneurship and more." })
+  res.json({ name: "Careers", species: "roles", "photo": "https://github.com/ThePrin/online-news/blob/master/img/carr.jpg?raw=true", bio: "There are roles in Web development, Mobile App development, Game dev, Artificial Intelligence, Machine Learning, Robotics, CyberSecurity, Entrepreneurship and more." })
 })
 
 app.get("/api/animals/barksalot", cors(), (req, res) => {
   res.header("Cache-Control", "max-age=10")
-  res.json({ name: "Languages", species: "program", "photo": "https://gowithcode.com/wp-content/uploads/2021/04/top-programming-languages.jpg", bio: "HTML, CSS and command line are essential. For Android App dev, look at options in Java and Kotlin. For iOS Apps, consider swift. React Native is cross platform-used for making both android and iOS. C# and java are renowned for Game development, python is heavily used in data science." })
+  res.json({ name: "Languages", species: "program", "photo": "https://github.com/ThePrin/online-news/blob/master/img/lang.jpg?raw=true", bio: "HTML, CSS and command line are essential. For Android App dev, look at options in Java and Kotlin. For iOS Apps, consider swift. React Native is cross platform-used for making both android and iOS. C# and java are renowned for Game development, python is heavily used in data science." })
 })
 
 app.get("/api/animals/purrsloud", cors(), (req, res) => {
   res.header("Cache-Control", "max-age=10")
-  res.json({ name: "Projects", species: "work", "photo": "https://img.bleacherreport.net/img/images/photos/003/874/468/hi-res-05e6240e0481a9b31a477005b2886a6d_crop_north.jpg?1593538664&w=3072&h=2048", bio: "Please post links to your projects here, ta-da ..." })
+  res.json({ name: "Projects", species: "work", "photo": "https://github.com/ThePrin/online-news/blob/master/img/proj.jpg?raw=true", bio: "Please post links to your projects here, ta-da ..." })
 })
 
 app.get("*", (req, res) => {
